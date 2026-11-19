@@ -1,0 +1,35 @@
+.post-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 4px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.post-username {
+    font-weight: 500;
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+.post-timestamp {
+    color: #555555;
+    font-size: 0.8rem;
+}
+
+.post-message {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #222222;
+    line-height: 1.5;
+    word-break: break-word;
+}
